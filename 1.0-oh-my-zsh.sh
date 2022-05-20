@@ -12,14 +12,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 # install powerlevel10k theme
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
-# display further configuration to user
-echo ""
-echo "============================"
-echo "Done installing dependencies."
-echo "Now run the following commands to configure zsh with powerlevel10k theme:"
-echo ""
-echo "$ nano ~/.zshrc"
-echo "then overwrite this variable:"
-echo "$ ZSH_THEME=\"powerlevel10k/powerlevel10k\""
-echo "then restart the zhs and follow prompt or run this to configure:"
-echo "$ p10k configure"
+echo "Done installing oh my zsh."

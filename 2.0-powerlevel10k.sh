@@ -1,0 +1,10 @@
+# display further configuration to user
+echo "============================"
+echo "Make sure oh my zsh is already installed!"
+echo "Now run the following commands to configure zsh with powerlevel10k theme:"
+echo ""
+echo "$ nano ~/.zshrc"
+echo "then overwrite this variable:"
+echo "$ ZSH_THEME=\"powerlevel10k/powerlevel10k\""
+echo "then restart the zhs and follow prompt or run this to configure:"
+echo "$ p10k configure"
