@@ -3,7 +3,7 @@ sudo apt update
 sudo apt upgrade -y
 
 # install zhs and set as default shell
-sudo apt-get install zsh
+sudo apt-get install zsh -y
 chsh -s /bin/zsh
 
 # install oh my zsh
