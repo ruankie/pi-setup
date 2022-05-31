@@ -13,5 +13,9 @@ sudo systemctl enable docker
 
 # prompt for testing
 echo "successfully installed docker!"
-echo "run the following command to test it:"
+echo ""
+echo "you must restart for changes to take effect! run thsi command:"
+echo "sudo reboot"
+echo ""
+echo "after restart, run the following command to test docker:"
 echo "docker run hello-world"
