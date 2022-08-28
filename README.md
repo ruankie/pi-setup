@@ -37,7 +37,7 @@ Some scripts to get raspberry pi set up from fresh install
   ```bash
   pihole -a -p
   ```
-4. Set upstream DNS (after loggin into pihole UI)
+4. Set upstream DNS (after loggin into pi-hole UI)
   > Settings > DNS > Toggle > Save
 5. Point router to pihole IP address for DNS
 
