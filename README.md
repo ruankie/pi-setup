@@ -26,3 +26,10 @@ static routers=<router-ip>
 static domain_name_servers=<dns-ip>
 static domain_search=
 ```
+
+## Set Up [pi-hole](https://github.com/pi-hole/pi-hole)
+1. Set static IP
+2. Run the auto setup and follow the prompts
+```bash
+curl -sSL https://install.pi-hole.net | bash
+```
